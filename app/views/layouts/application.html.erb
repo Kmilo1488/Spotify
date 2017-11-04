@@ -1,14 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Spotify</title>
-    <%= csrf_meta_tags %>
+    <title>Clon Spotify</title>
 
+    <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
   </head>
 
   <body>
+
+    <header>
+  		<nav class="navbar navbar-inverse">
+  			<div class="navbar-header">
+      		<a class="navbar-brand" href="#">Clon Spotify</a>
+    		</div>
+    		<div class="collapse navbar-collapse navbar-ex1-collapse">
+  				<ul class="nav navbar-nav navbar-left">
+  					<li><%= link_to "Artistas", artists_path %></li>
+  					<li><a href="#">Musica</a></li>
+  				</ul>
+  				<ul class="nav navbar-nav navbar-right">
+  					<li><a href="#">Mi Cuenta</a></li>
+  				</ul>
+    		</div>
+  		</nav>
+  	</header>
+
     <%= yield %>
+
   </body>
 </html>

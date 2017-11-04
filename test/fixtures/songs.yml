@@ -4,10 +4,8 @@ one:
   name: MyString
   number: 1
   preview_url: MyString
-  album: one
 
 two:
   name: MyString
   number: 1
   preview_url: MyString
-  album: two

@@ -3,11 +3,9 @@
 one:
   name: MyString
   image_url: MyString
-  released_at: 1
-  artist: one
+  released_at: MyString
 
 two:
   name: MyString
   image_url: MyString
-  released_at: 1
-  artist: two
+  released_at: MyString
